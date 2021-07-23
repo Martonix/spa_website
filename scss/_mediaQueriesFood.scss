@@ -1,0 +1,271 @@
+
+@media (max-width: 1450px){
+    
+    .part-1 p {
+        margin-top: 5em;
+    }
+
+    .part-2 p {
+        margin-top: 7.5em;
+    }
+
+    .part-3 p {
+        margin-top: 8em;
+    }
+
+    .part-4 p {
+        margin-top: 11em;
+    }
+
+
+}
+
+@media (max-width: 1300px){
+
+    
+    .part-1 {
+        clip-path: polygon(0 0, 100% 0, 100% 95% , 0 100%);
+    }
+
+    .part-1 img {
+        display: none;
+    }
+
+    .part-1 a {
+        text-indent: -9999px;
+        background: url("../img/medium/food/brooke-lark-lcZ9NxhOSlo-unsplash.jpg") center no-repeat;
+        display: block;
+        background-size: cover;
+        height: 25em;
+    }
+
+    .part-1 p {
+        float: none;
+        width: 100%;
+      vertical-align: baseline;
+       margin: 5em 0;
+      padding: 0 10em;
+       height: 10em;
+    }
+ 
+    /****************************************************************/
+    
+    .part-2 {
+         clip-path: polygon(0 6%, 100% 0, 100% 100% , 0 100%);
+    }
+
+    .part-2 img {
+        display: none;
+    }
+
+    .part-2 a {
+        text-indent: -9999px;
+        background: url("../img/medium/food/jonathan-pielmayer-3ELNgHkIIZM-unsplash.jpg") center no-repeat;
+        display: block;
+        background-size: cover;
+        height: 25em;
+    }
+
+    .part-2 p {
+        float: none;
+        width: 100%;
+        margin: 5em 0;
+      padding: 0 10em;
+       height: 10em;
+    }
+
+    /*******************************************************************************/
+ 
+     
+    .part-3 {
+        clip-path: polygon(0 0, 100% 7%, 100% 100% , 0 100%);
+   }
+
+   .part-3 img {
+       display: none;
+   }
+
+   .part-3 a {
+       text-indent: -9999px;
+       background: url("../img/medium/food/brooke-lark-RrzeCGujVfU-unsplash.jpg") center no-repeat;
+       display: block;
+       background-size: cover;
+       height: 25em;
+   }
+
+   .part-3 p {
+       float: none;
+       width: 100%;
+       margin: 5em 0;
+      padding: 0 10em;
+      height: 10em;
+   }
+
+   /******************************************************************************/
+
+
+        
+   .part-4 {
+    clip-path: polygon(0 7%, 100% 0, 100% 100% , 0 100%);
+    }
+
+    .part-4 img {
+    display: none;
+    }
+
+    .part-4 a {
+    text-indent: -9999px;
+    background: url("../img/medium/food/sunorwind-Z4CvBOpOi6w-unsplash.jpg") center no-repeat;
+    display: block;
+    background-size: cover;
+    height: 25em;
+    //clip-path: polygon(0 7%, 100% 0, 100% 100% , 0 100%);
+    }
+
+    .part-4 p {
+    float: none;
+    width: 100%;
+    margin: 5em 0;
+    padding: 0 10em;
+    height: 10em;
+    margin-bottom: 2em;
+    }
+
+
+}
+
+@media (max-width: 950px) {
+
+    .part-1 p {
+        margin-bottom: 7em;
+    }
+
+    
+    .part-2 p {
+        margin-bottom: 7em;
+    }
+
+    
+    .part-3 p {
+        margin-bottom: 7em;
+    }
+
+    
+    .part-4 p {
+        margin-bottom: 4em;
+    }
+
+}
+
+
+@media (max-width: 900px ){ 
+
+    .part-1 {
+        clip-path: polygon(0 0, 100% 0, 100% 96% , 0 100%);
+    }
+
+    .part-1 p {
+        padding: 0 4em;
+        margin-top: 4em;
+        margin-bottom: 6em;
+    }
+
+    
+    .part-2 {
+        clip-path: polygon(0 4%, 100% 0, 100% 100% , 0 100%);
+   }
+
+   .part-2 p {
+    margin-top: 4em;
+    padding: 0 3em;
+    margin-bottom: 6em;
+}
+
+   .part-3 {
+    clip-path: polygon(0 0, 100% 5%, 100% 100% , 0 100%);
+}
+
+.part-3 p {
+    margin-top: 4em;
+    padding: 0 3em;
+    margin-bottom: 6em;
+}
+
+
+    
+.part-4 {
+    clip-path: polygon(0 5%, 100% 0, 100% 100% , 0 100%);
+    }
+
+    .part-4 p {
+        margin-top: 4em;
+        padding: 0 3em;
+        margin-bottom: 2em;
+    }
+ 
+
+
+}
+
+@media (max-width: 650px ){
+
+    .part-1 {
+        clip-path: polygon(0 0, 100% 0, 100% 100% , 0 100%);
+    }
+
+
+    .part-1 p {
+        padding: 0 1em;
+        margin-top: 4em;
+    
+    }
+
+    
+    .part-2 {
+        clip-path: polygon(0 0, 100% 0, 100% 100% , 0 100%);
+   }
+
+   .part-2 p {
+       margin-top: 4em;
+       padding: 0 1em;
+       margin-bottom: 9em;
+   }
+
+    
+   .part-3 {
+    clip-path: polygon(0 0, 100% 0%, 100% 100% , 0 100%);
+}
+
+.part-3 p {
+    margin-top: 4em;
+    padding: 0 1em;
+    margin-bottom: 9em;
+}
+
+
+    
+.part-4 {
+    clip-path: polygon(0 0%, 100% 0, 100% 100% , 0 100%);
+    }
+
+    .part-4 p {
+        margin-top: 7em;
+        padding: 0 1em;
+        margin-bottom: 9em;
+    }
+ 
+}
+
+@media (max-width: 550px){
+    
+        .post-header-2 {
+            display: block;
+           // background: url("../img/medium/clark-tibbs-oqStl2L5oxI-unsplash.jpg") center 60px no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 40em;
+            margin-top: 12em;
+            margin-bottom: 10em;
+            text-indent: -9999px;
+        }
+}

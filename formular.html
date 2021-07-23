@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="fontawesome-free-5.14.0-web/css/all.css">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport"  content="width=device-width, initial-scale=1">
+	<title>formular</title>
+</head>
+<body>
+
+        <header class="main-header-form">
+            <div class="container">
+                <div class="logo">
+                    <h1>logo</h1>
+                </div>
+                <h1 class="main-title">Fitness lifestyle</h1> 
+                <nav class="nav-bar menu mnHide" id="menuIts">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="training.html">training</a></li>
+                        <li><a href="food.html">food</a></li>
+                        <li><a href="supplements.html">suplements</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+    
+
+        <form action="#" id="forms">
+            <fieldset>
+                <legend>INFORMÁCIE O ČLÁNKU</legend>
+
+                <label for="nameLbl">Názov článku:</label><br>
+
+                <input  class="fieldset" 
+                        type="text" 
+                        name="article_name"
+                        spellcheck="true"
+                        placeholder="Fitness téma" 
+                        id="nameLbl"
+                        pattern="[a-zA-ZľščťžýáíéäňôúĽŠŤČŽÁ]{1}[a-zA-ZľščťžýáíéäňôúĽŠŤČŽÁ0-9 ]{1,}$"
+                        required
+                        >
+
+                <br><br>
+
+                <b>Kľúčové slová:</b><br>
+                <input class="align_fieldset" type="text" list="keywords" name="keywords"
+                    placeholder="fitness, strava, cviky, váha,.."
+                    title="Kľúčové slová musia byť oddelené čiarkou."><br>
+                <datalist id="keywords">
+                    <option value="fitness"></option>
+                    <option value="strava"></option>
+                    <option value="cviky"></option>
+                    <option value="váha"></option>
+                    <option value="posilovňa"></option>
+                    <option value="workout"></option>
+                 
+                </datalist>
+                <br>
+                <div>
+                    <b>Obrázok z článku:</b><br>
+
+                    Vybrať súbor z počítača: 
+                    <input type="radio" 
+                           name="button" 
+                            id="htp"
+                        >
+                    <br>   
+
+                    alebo vložiť URL: 
+                    <input type="radio" 
+                           name="button" 
+                             id="ur"
+                    >
+
+                    <input type="url" 
+                           name="article__img_url" 
+                          class="url"
+                        >
+
+                    <input type="file" 
+                           name="article_img_file" 
+                         accept="image/png, image/jpeg" 
+                          class="file"
+                        >
+
+                    <br><br>
+
+                    <label for="textArtLbl">Text komentáru:</label><br>
+
+                    <textarea name="article_txt" 
+                        spellcheck="true" 
+                                id="textArtLbl"
+                       placeholder="Text napíšte sem.." 
+                        required
+                    >
+                    </textarea>
+                    <span id="counter"></span>
+                 
+                
+                </div>
+            </fieldset>
+
+                <br><br>
+
+                <fieldset>
+                    <legend>INFORMÁCIE O AUTOROVI</legend>
+                    <div>
+                        <label for="authorLbl">Autor komentáru:</label><br>
+
+                        <input class="fieldset" 
+                        type="text" id="authorLbl" 
+                        name="article_author" 
+                        placeholder="Meno Priezvisko"
+                            required
+                            >
+                            <br><br>
+
+                        <label for="emaliLbl">E-mail na autora:</label><br>
+
+                        <input 
+                        class="fieldset" 
+                        id="emaliLbl" 
+                        type="email" 
+                        name="article_author_mail" 
+                        placeholder="name@email.com"
+                            required
+                            >
+                            <br><br>
+
+                    </div>
+                </fieldset>
+
+                <br>
+
+                <input type="submit" class="button" value="Potvrdiť formulár">
+                <input type="reset" class="button" value="Resetovať formulár">
+                <a href="comments.html" class="button"> Komentáre</a>
+        </form>
+
+           
+        <article  id="artOpinions" style="display: none;">
+            
+            <h2>Visitor Opinions</h2>
+            <div id="opinionsContainer"></div>
+            <footer  class="menuLink"><a href="#menuTitle">Back to the menu</a></footer>
+        </article>
+
+            
+
+        <article  id="openFormular" style="display: none;">    
+            <script id="htmlFromScript" type="text/template">
+                <section>
+                    <h3>{{name}} <i>{{createdDate}}</i></h3>
+                    <p>{{comment}}</p>
+                </section>
+            </script>  
+        </article>   
+    
+        <aside class="pre-footer">
+            <div class="container">
+            
+                <ul class="menu personal">
+                    <li><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/?ref=logo" target="_blank">facebook</a></li>
+                    <li><i class="fab fa-twitter"></i><a href="https://twitter.com" target="_blank">twitter</a></li>
+                    <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com" target="_blank">instagram</a></li>
+                    </ul>
+                <ul class="menu personal">
+                    <li><i class="fa fa-phone "></i><a href="tel:+421900111222" target="_blank">+421 900 111 222</a></li>
+                    <li><i class="fa fa-envelope "></i><a href="mailto:martin.dobos@student.tuke.sk?Subject=Reakcia%20na%20váš%20blog%20s%20názvom%20'Ako%20na%20zdravý%20životný%20štýl'" target="_blank">martin.dobos@student.tuke.sk</a></li>
+                </ul>
+            </div>
+        </aside>
+        <footer>
+            <div class="container">
+                <a href="canvas.html">
+                    <p class="footer">&copy; Martin Doboš 2020</p>
+                </a>
+            </div>
+        </footer>
+        
+        <script src="js/mustache.min.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/svg.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/formular.js"></script>
+        
+      
+    </body>
+</html> 

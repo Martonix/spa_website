@@ -1,0 +1,25 @@
+
+//@import 'debug';
+@import "variables";
+@import 'function-mixins';
+
+@import 'general';
+
+@import 'pages/main-page';
+@import 'pages/food';
+@import 'pages/training';
+@import 'pages/supplements';
+@import 'pages/form.scss';
+@import 'pages/coments';
+@import "pages/draw-app";
+@import "pages/spa";
+
+@import 'mediaQueries';
+@import 'mediaQueriesFood';
+@import 'mediaQueriesSupplement';
+@import 'mediaQueriesTraining';
+@import 'svg';
+@import 'animation';
+
+
+
